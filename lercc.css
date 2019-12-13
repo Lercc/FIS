@@ -1,0 +1,56 @@
+body {
+     background: #262623;
+}
+
+svg{
+     width: 25%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     right: 50%;
+     margin: auto;
+     transform:translate(-50%,-50%);
+
+}
+svg#first{
+  animation: lerccf 300s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes lerccf {
+  1.5%{opacity: 0.8;}
+  1.6%{opacity: 0.7;}
+  1.7%{opacity: 0.6;}
+  1.8%{opacity: 0.0;}
+  100%{opacity:0.0;}
+}
+
+svg#second{
+  animation: lerccs 100s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes lerccs {
+  0%{opacity: 0.0}
+  5%{opacity: 0.0;}
+  8%{opacity: 1;}
+ 8.1%{opacity: 1;left: 50%;}
+  9%{left: 24%;}
+  100%{left: 24%}
+}
+
+svg#third{
+  width: 45%;
+  left: 39.5%;
+  animation: lercct 10s;
+  animation-fill-mode:forwards;
+
+}
+@keyframes lercct {
+  0%{opacity: 0.0}
+  25%{opacity: 0.0;}
+  50%{opacity: 0.0;}
+ 80%{opacity: 0.0}
+  90%{left: 65%;}
+  100%{left: 65%}
+}
